@@ -56,4 +56,7 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    // New dependencies for animation and LiveData
+    implementation(libs.androidx.compose.animation)
+    implementation(libs.androidx.compose.runtime.livedata)
 }
